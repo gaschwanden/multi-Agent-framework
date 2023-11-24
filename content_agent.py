@@ -16,15 +16,13 @@ from langchain import PromptTemplate
 import openai
 from dotenv import load_dotenv
 
-# Get API key
+### Get API key
 load_dotenv()
 config_list = config_list_from_json(env_or_file="OAI_CONFIG_LIST")
 openai.api_key = os.getenv("OPENAI_API_KEY")
 xapikey = os.getenv("X-API-KEY")
 
-# Define research function
-
-
+### Define research function
 def search(query):
     url = "https://google.serper.dev/search"
 
