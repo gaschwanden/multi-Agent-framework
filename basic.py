@@ -16,4 +16,4 @@ user_proxy = UserProxyAgent(
 
 
 user_proxy.initiate_chat(
-    assistant, message= "Make a customer story for a sales agent")
+    assistant, message= "We are a company with four verticals that operates as marketplaces within the automotive, real estate, finance and general marketplaces sector. We have separate teams with separate technologies creating silos, higher cost and people not being able to work with each other. Can you help me to figure out how to consolidate technologies and bring people together to share data and ways of working.")

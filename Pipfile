@@ -8,6 +8,7 @@ autogen = "*"
 bs4 = "*"
 langchain = "*"
 tiktoken = "*"
+docx = "*"
 
 [dev-packages]
 

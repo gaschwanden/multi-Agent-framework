@@ -29,4 +29,4 @@ manager = autogen.GroupChatManager(groupchat=groupchat, llm_config=llm_config)
 
 # Start the conversation
 user_proxy.initiate_chat(
-    manager, message="Create a table and graphic from worldbank via API that shows the density of people and income.")
+    manager, message="Create a function that allows autogen agents (https://github.com/microsoft/autogen) to create word documents and powerpoints.") 

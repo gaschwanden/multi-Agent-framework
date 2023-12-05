@@ -36,7 +36,7 @@ def search(query):
 
     response = requests.request("POST", url, headers=headers, data=payload)
 
-    return response.json()
+    return response.json()f
 
 
 def scrape(url: str):
@@ -265,4 +265,4 @@ user_proxy = autogen.UserProxyAgent(
 )
 
 user_proxy.initiate_chat(
-    writing_assistant, message= "Research what is required to run and develop tools that are based on Large Language Models (LLM) in a large financial insitution.")
+    writing_assistant, message= "We are a company with four verticals that operates as marketplaces within the automotive, real estate, finance and general marketplaces sector. We have separate teams with separate technologies creating silos, higher cost and people not being able to work with each other. Can you help me to figure out how to consolidate technologies and bring people together to share data and ways of working.")
